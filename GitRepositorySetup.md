@@ -20,9 +20,8 @@ git commit -m "<message>"
 ```	
 ### Configuration & setup
 ```
-git remote add <remote_name(origin)> <remote_repo_url> // skip this when you cloned
-git pull <remote_name(origin)> <local_branch_name(main)>
-git push (-u) <remote_name(origin)> <local_branch_name(main)>
+git remote add <remote_name(origin)> <remote_repo_url>
+git push -u <remote_name(origin)> <local_branch_name(main)>
 ```
 ### After isntalling Git
 ```
