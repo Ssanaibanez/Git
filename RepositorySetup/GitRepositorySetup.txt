@@ -2,13 +2,14 @@ Setting up a repository
 
 Initializing a new repository
 
-	cd <path to your existing code>
-	git init 
-
-	git init <project directory>
-	
 	git branch -m master main
+
+			cd <path to your existing code>
+			git init 
+
+			git init <project directory>
 	
+
 Cloning an existing repository
 
 	git clone <repo url>
@@ -20,13 +21,12 @@ Saving changes to the repository
 	
 Configuration & setup
 
-	git remote add <remote_name> <remote_repo_url>
-	git remote add origin https://github.com/Ssanaibanez/Git.git
-	
 	git push -u <remote_name> <local_branch_name>
 	git push -u origin main
-	
 
+			git remote add <remote_name> <remote_repo_url>
+			git remote add origin https://github.com/Ssanaibanez/Git.git
+	
 After isntalling Git
 	git config --glabal user.name "<name>"
 	git config --global user.email <email>
